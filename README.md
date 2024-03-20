@@ -25,8 +25,7 @@
   "appium:appActivity": "com.android.calculator2.Calculator",
   "appium:app": "H:\\apk\\calculator.apk",
   "appium:automationName": "UiAutomator2"
-  }
-```
+  }```
 
 - Open Intellij Idea
 - Hit the following command into the terminal: gradle clean test
