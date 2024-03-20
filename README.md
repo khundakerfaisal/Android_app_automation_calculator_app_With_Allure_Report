@@ -17,15 +17,16 @@
 - Open Appium Server with following command: appium 
 - Open Appium Inspector
 - Set desired capabilites in json format:
-  
-  ```{
+  ```
+  {
   "platformName": "android",
   "appium:platformVersion": "11",
   "appium:appPackage": "com.google.android.calculator",
   "appium:appActivity": "com.android.calculator2.Calculator",
   "appium:app": "H:\\apk\\calculator.apk",
   "appium:automationName": "UiAutomator2"
-}```
+  }
+```
 - Open Intellij Idea
 - Hit the following command into the terminal: gradle clean test
 - For generating Allure Report use these commands: ```allure generate allure-results```
