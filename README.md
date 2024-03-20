@@ -8,6 +8,9 @@
 - Gradle
 - Java
 ## About this project
+The Adobe automation is  an Android app automation using a calculator app. Here we have calculated some values and printed the value in the result window.
+Selenium WebDriver is used to interact with the Android app automation, and TestNG is used to assert the expected outcomes of the tests. We have to generate 
+Allure report and attached an automation video for calculating the value.
 
 ## How to run this project
 - Clone this project ```github.com/khundakerfaisal/Android_app_automation_calculator_app_With_Allure_Report```
