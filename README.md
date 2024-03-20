@@ -27,6 +27,7 @@
   "appium:automationName": "UiAutomator2"
   }
 ```
+
 - Open Intellij Idea
 - Hit the following command into the terminal: gradle clean test
 - For generating Allure Report use these commands: ```allure generate allure-results```
