@@ -15,11 +15,11 @@ Allure report and attached an automation video for calculating the value.
 ## How to run this project
 - Clone this project ```github.com/khundakerfaisal/Android_app_automation_calculator_app_With_Allure_Report```
 - Open Android Studio and Open the APK file:
-- Set required configuration
-- Hit this command in cmd for checking the connectivity with emulator : adb devices
-- Open Appium Server with following command: appium 
+- Set the required configuration
+- Hit this command in cmd to check the connectivity with emulator: ```adb devices```
+- Open Appium Server with the following command: ```appium```
 - Open Appium Inspector
-- Set desired capabilites in json format:
+- Set desired capabilities in json format:
   ```
   {
   "platformName": "android",
@@ -30,7 +30,7 @@ Allure report and attached an automation video for calculating the value.
   "appium:automationName": "UiAutomator2"
   }```
 
-- Open Intellij Idea
+- Open IntelliJ Idea
 - Hit the following command into the terminal: gradle clean test
 - For generating Allure Report use these commands: ```allure generate allure-results```
   ```allure serve allure-results```
